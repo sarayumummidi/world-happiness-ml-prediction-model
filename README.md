@@ -70,22 +70,30 @@ The project explores multiple regression methods including Linear Regression, Ri
 
 ---
 
-## Usage
+## Run the Notebook
 
-1. Clone the repository.
-2. Ensure dependencies are installed (`scikit-learn`, `pandas`, `numpy`, `matplotlib`, `seaborn`).
-3. Run the Jupyter notebook or Python scripts to reproduce data preprocessing, model training, and evaluation.
-4. Modify model parameters or try new models as desired.
+To run this project locally:
 
----
+1. **Clone the repo**:
+    ```bash
+    git clone https://github.com/sarayumummidi/world-happiness-ml-prediction-model.git
+    cd world-happiness-ml-prediction-model
+    ```
 
-## Author
+2. **(Optional) Create a virtual environment and activate it**:
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    ```
 
-[Your Name]
+3. **Install dependencies**:
+    ```bash
+    pip install scikit-learn pandas numpy keras matplotlib seaborn
+    ```
 
----
+4. **Launch Jupyter**:
+    ```bash
+    jupyter notebook
+    ```
 
-## References
-
-- World Happiness Report 2018 Dataset: [Link if available]
-- Scikit-learn documentation: https://scikit-learn.org
+Then open `WorldHappinessPredictionModel.ipynb`.
